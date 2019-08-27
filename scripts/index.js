@@ -1,7 +1,7 @@
-document.addEventListener("DOMContentLoaded", function() {
-  var modals = document.querySelectorAll(".modal");
-  M.Modal.init(modals);
+function login() {
 
-  var items = document.querySelectorAll(".collapsible");
-  M.Collapsible.init(items);
-});
+  var email = document.getElementById('email');
+  var password = document.getElementById('password');
+
+
+}
